@@ -1,0 +1,53 @@
+###Part 2
+print "------------------------------------------------------"    
+###Question 5
+theInput = raw_input("Enter an integer: ")
+#Your code here
+theInput = int(theInput)
+if theInput%2 ==0:
+    print "Even integer"
+else:
+    print "Odd integer"
+
+print "------------------------------------------------------"
+prim_age=5
+leg_vot_age=18
+prez_age=21
+ret_age=60
+personsAge = input("Enter an age: ")
+if personsAge >= prim_age and personsAge < leg_vot_age:
+    print "You should be in school by now, you can't vote"
+elif personsAge>ret_age:
+    print "Too old"    
+elif personsAge>=leg_vot_age and personsAge<prez_age:
+    print "Welcome!! Remember to vote \n You can't be president"
+elif personsAge>prez_age and personsAge<=ret_age:
+    print"vote for me"
+
+print "------------------------------------------------------"    
+    
+    
+###Question 7
+num=40
+while num>0:
+    if num%3==0:
+        print num
+    num=num-1
+
+print"------------------------------------------------------"    
+###Question 8
+for i in range(6,30):
+    if i%2!=0 and i%5!=0 and i%2!=0:
+        print i
+	
+print"------------------------------------------------------"    
+
+###Question 9
+n=0
+while n>=0:
+    if(n*79)%97==1:
+        print n
+        break
+    n=n+1
+print"------------------------------------------------------"    
+
